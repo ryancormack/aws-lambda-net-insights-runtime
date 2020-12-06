@@ -1,0 +1,18 @@
+{
+  "name": "aws-lambda-net-insights-runtime",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "serverless": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "buildwin": "build.cmd",
+    "buildosx": "build.cmd",
+    "package": "node_modules/.bin/serverless package",
+    "deploy": "node_modules/.bin/serverless deploy",
+    "invoke": "node_modules/.bin/serverless invoke -f hello"
+  },
+  "author": "",
+  "license": "ISC"
+}
